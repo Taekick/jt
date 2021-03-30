@@ -1,0 +1,23 @@
+@import "reset.scss";
+.listNumber,
+.listSubNumber {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.listNumber__item,
+.listSubNumber__item {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 25%;
+  height: 100px;
+  @media (max-width: 780px) {
+    width: 50%;
+  }
+}
+.listSubNumber__item {
+  height: 50px;
+}

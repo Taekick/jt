@@ -1,0 +1,36 @@
+.resultList {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .resultElement {
+    width: 25%;
+    height: 100px;
+
+    padding: 10px;
+    margin-bottom: 10px;
+
+    .resultElementContain {
+      border: 1px solid;
+      padding: 10px;
+      height: 100%;
+      color: #000;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
+.tagItemList {
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    border: 1px solid #000;
+    padding: 2px 12px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    background: #eee;
+  }
+}
